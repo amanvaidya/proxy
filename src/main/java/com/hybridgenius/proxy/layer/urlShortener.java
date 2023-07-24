@@ -6,7 +6,7 @@ import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
+
 
 
 @FeignClient(value = "url-shortener", url = "url-shortener")
