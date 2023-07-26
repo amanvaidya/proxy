@@ -9,7 +9,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 
 @FeignClient(value = "compressor", url = "compressor")
-public interface compressor {
+public interface Compressor {
 
     @PostMapping("/compress")
     public ResponseEntity<byte[]> doCompression(@RequestParam("file") MultipartFile multipartFile);

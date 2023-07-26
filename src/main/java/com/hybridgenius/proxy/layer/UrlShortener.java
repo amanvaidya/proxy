@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 
 @FeignClient(value = "url-shortener", url = "url-shortener")
-public interface urlShortener {
+public interface UrlShortener {
 
     @PostMapping("/encode")
     public String encodeUrl(@RequestBody URLShortenerDto urlShortenerDto);
