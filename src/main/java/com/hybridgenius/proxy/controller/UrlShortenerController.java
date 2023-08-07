@@ -1,7 +1,7 @@
 package com.hybridgenius.proxy.controller;
 
 import com.hybridgenius.proxy.dto.URLShortenerDto;
-import com.hybridgenius.proxy.layer.UrlShortener;
+import com.hybridgenius.proxy.client.UrlShortener;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,6 +1,6 @@
 package com.hybridgenius.proxy.controller;
 
-import com.hybridgenius.proxy.layer.Compressor;
+import com.hybridgenius.proxy.client.Compressor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
