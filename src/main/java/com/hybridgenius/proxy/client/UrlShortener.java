@@ -2,14 +2,12 @@ package com.hybridgenius.proxy.client;
 
 
 import com.hybridgenius.proxy.dto.URLShortenerDto;
-import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletResponse;
 
 
 
-@FeignClient(value = "url-shortener", url = "url-shortener")
 public interface UrlShortener {
 
     @PostMapping("/encode")

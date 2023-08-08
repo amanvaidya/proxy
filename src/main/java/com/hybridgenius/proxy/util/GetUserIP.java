@@ -27,4 +27,3 @@ public class GetUserIP {
         return ipAddress;
     }
 }
-
